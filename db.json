@@ -1,0 +1,21 @@
+{
+  "users": [
+    
+    {
+      "id": "f68e",
+      "user": "sujal",
+      "password": "12",
+      "name": "Sujal Jindal",
+      "email": "ss@gmail.com",
+      "phone": "98"
+    },
+    {
+      "id": "dca0",
+      "user": "jindal",
+      "password": "12",
+      "name": "sujal",
+      "email": "s@gmail.com",
+      "phone": "34"
+    }
+  ]
+}

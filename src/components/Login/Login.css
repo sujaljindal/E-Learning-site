@@ -1,0 +1,107 @@
+.loginCont {
+   position: absolute;
+   z-index: 2;
+   width: 100%;
+   height: 100%;
+   display: grid;
+}
+
+.loginGrid {
+    place-self: center;
+    width:max(23vw,1000px);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    /* max-width: 1200px; */
+    /* width: 100%; */
+    background: #fff; 
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    animation: fadeIn 0.5s;
+}
+
+.LoginImage {
+    margin: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e8f5f9; 
+} 
+
+.LoginImage img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 0; 
+}
+
+.LoginDetail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+}
+
+.LoginDetail h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.btnContainer {
+    background-color: #92d6d6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 30px;
+    width: 80%;
+    padding: 10px 0px ;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.btnContainer button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #00cbbb;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btnContainer button:hover {
+    background-color: #009fa0;
+}
+
+.LoginDetail p {
+    margin-bottom: 20px;
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+}
+
+.LoginDetail label {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.LoginDetail input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.LoginDetail input:focus {
+    border-color: #00cbbb;
+}
+
